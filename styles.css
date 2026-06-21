@@ -1,0 +1,87 @@
+body {
+    background: url(./images/fondoreserva.png) no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+    color: white;
+    background-color: #000000; /* Fondo negro para asegurar que el texto sea legible */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.form-container {
+   
+    background-color: #333333; /* Fondo oscuro para contraste */
+    color: white;
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8); /* Sombra sutil */
+    max-width: 400px;
+    width: 100%;
+}
+
+h1 {
+    color: #ffffff; /* Texto blanco para mejor legibilidad */
+    font-size: 24px;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5em;
+    font-size: 14px;
+    color: #dddddd; /* Texto gris claro para mejor contraste */
+}
+
+input[type="text"],
+input[type="date"],
+input[type="password"] {
+    width: 100%;
+    padding: 0.8em;
+    margin-bottom: 1.5em;
+    border: 1px solid #666666; /* Borde gris para visibilidad */
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: #444444; /* Fondo oscuro para inputs */
+    color: #ffffff; /* Texto blanco */
+}
+
+.login-container {
+   font-family: 'cooper Black';
+    background-color: rgba(226, 70, 216, 0.9); /* Fondo blanco con ligera transparencia */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 90%;
+    text-align: center;
+    position: relative; /* Cambiado a relative para que el contenedor se posicione correctamente */
+    top: 10%; /* Ajustado para que el contenedor esté centrado verticalmente */
+    transform: translateY(-10%); /* Ajuste para centrar verticalmente */
+}
+
+button {
+    width: 100%;
+    padding: 0.8em;
+    background-color: #6bb9f0;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #af1d88; /* Ajustado a un color más oscuro al pasar el ratón */
+}
+
+button:focus,
+input:focus {
+    outline: none;
+    border-color: #6bb9f0;
+    box-shadow: 0 0 5px rgba(107, 185, 240, 0.5);
+}
